@@ -1,6 +1,20 @@
+"""
+daily_summary.py
+-----------------
+Collects and summarizes a user's daily performance and reflection data:
+- Hours slept
+- Hours studied
+- Focus rating (Yes/No/Other)
+- Tasks completed
+- Personal reflection note
+
+Outputs a simple summary to encourage self-awareness and productivity tracking.
+
+"""
+
 hours_slept = float(input("How many hours did you sleep today: "))
 study_hours = float(input("How many hours did you study today: "))
-is_focused_today = input("Were you focused today: Yes/No? ").strip().lower()
+is_focused_today = input("Were you focused today: Yes/No? ").strip().lower() 
 
 if is_focused_today == "yes":
     is_focused_today = "True"
