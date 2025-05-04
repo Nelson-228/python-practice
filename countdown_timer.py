@@ -1,3 +1,13 @@
+"""
+countdown_timer.py
+-------------------
+Prints a countdown from 10 to 1 using a for loop,
+then displays "Blast off!" at the end.
+
+Demonstrates use of range() with negative step values and basic loop control.
+
+"""
+
 # Declares the variable of x as the range of those numbers inside "range()"
 for x in range(10, 0, -1): # Starts at 10, ends at 1 (bc does not count 0), and goes down by -1 at a time
     print(x)
