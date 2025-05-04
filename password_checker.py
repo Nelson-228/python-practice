@@ -1,3 +1,16 @@
+"""
+password_checker.py
+--------------------
+A simple password authentication loop.
+
+- Prompts the user for a password.
+- Repeats the prompt until the correct password is entered.
+- Demonstrates use of `while` loops and conditional logic.
+
+Purpose: Practice using input validation and loops in Python.
+
+"""
+
 password = "OpenSesame"
 
 UsersGuess = input("Enter password: ")
