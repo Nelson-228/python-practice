@@ -1,3 +1,15 @@
+"""
+filter_numbers.py
+------------------
+Loops through numbers 1 to 20 and filters them based on simple conditions:
+- Skips even numbers using modulo
+- Stops the loop entirely if the number exceeds 15
+- Prints odd numbers up to 15
+
+Purpose: To demonstrate control flow using `continue`, `break`, and `modulus (%)` operators.
+
+"""
+
 for loop in range(1, 21): # Declaring loop as a variable, loop equals the range from 1-20
     if loop % 2 == 0: # (% used to see if there is a left over number, if so, it is odd and does not use the continue command. But if it shoots out a 0, meaning that the number is even, it skips that number, continuing the loop)
         continue
